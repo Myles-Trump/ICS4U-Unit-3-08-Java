@@ -22,6 +22,11 @@ public class Bike extends Vehicle {
     */
     private int cadence = 0;
 
+    /**
+    * Setting number of wheels.
+    */
+    numOfWheels = 2;
+
     // getters
     /**
     * The getter for cadence.
@@ -46,5 +51,12 @@ public class Bike extends Vehicle {
     */
     public void ringBell() {
         System.out.println("\nRing ring!");
+    }
+
+    /**
+    * The numberOfWheels() method lets the user check the number of wheels.
+    */
+    public void numberOfWheels() {
+        System.out.println("\nYou bike has " + numberOfWheels + " wheels.");
     }
 }

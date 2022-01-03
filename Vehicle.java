@@ -39,7 +39,10 @@ public class Vehicle {
     * Defining and setting maximum speed.
     */
     private int maximumSpeed = C180;
-
+    /**
+    * Defining and setting number of wheel.
+    */ 
+    private int numOfWheels;
 
     // getters
 
@@ -83,7 +86,7 @@ public class Vehicle {
     * The doors() method tells the user how many doors the vehicle has.
     */
     public void doors() {
-        System.out.println("\nThe vehicle has " + numberOfDoors + " doors.");
+        System.out.println("\nThe vehicle has " + numOfDoors + " doors.");
     }
 
     /**
@@ -101,6 +104,13 @@ public class Vehicle {
     public void maximumSpeed() {
         System.out.println("\nThe vehicle's maximum speed is " + maximumSpeed
             + " mph.");
+    }
+
+    /**
+    * The numberOfWheels() method states the amount of wheels.
+    */
+    public void numberOfWheels() {
+        System.out.println("\nYou vehicle have " + numberOfWheels + " wheels.");
     }
 
     /**
