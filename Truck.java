@@ -23,7 +23,7 @@ public class Truck extends Vehicle {
     /**
     * Defining and setting number of wheels.
     */
-    int numOfWheels = C18;
+    private int numOfWheels = C18;
 
     // Methods
     /**

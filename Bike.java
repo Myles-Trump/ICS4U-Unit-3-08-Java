@@ -25,7 +25,7 @@ public class Bike extends Vehicle {
     /**
     * Defining and setting number of wheels.
     */
-    int numOfWheels = 2;
+    private int numOfWheels = 2;
 
     // getters
     /**

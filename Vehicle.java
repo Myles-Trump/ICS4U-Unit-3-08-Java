@@ -41,7 +41,7 @@ public class Vehicle {
     private int maximumSpeed = C180;
     /**
     * Defining and setting number of wheel.
-    */ 
+    */
     private int numOfWheels = C4;
 
     // getters
