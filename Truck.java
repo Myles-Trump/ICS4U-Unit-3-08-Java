@@ -9,11 +9,21 @@
 public class Truck extends Vehicle {
 
     /**
+    * 18.
+    */
+    public static final int C18 = 18;
+
+    /**
     * Calling methods from its superclass (Vehicle).
     */
     public Truck() {
         super();
     }
+
+    /**
+    * Defining and setting number of wheels.
+    */
+    int numOfWheels = C18;
 
     // Methods
     /**
@@ -22,5 +32,10 @@ public class Truck extends Vehicle {
     public void provideAir() {
         System.out.println("\nYou have recycled your air!");
     }
-
+    /**
+    * The numberOfWheels() method lets the user check the number of wheels.
+    */
+    public void numberOfWheels() {
+        System.out.println("\nYour truck has " + numOfWheels + " wheels.");
+    }
 }

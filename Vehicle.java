@@ -30,7 +30,7 @@ public class Vehicle {
     /**
     * Defining and setting doors.
     */
-    private int numberOfDoors = C4;
+    private int numOfDoors = C4;
     /**
     * Defining and setting current speed.
     */
@@ -42,7 +42,7 @@ public class Vehicle {
     /**
     * Defining and setting number of wheel.
     */ 
-    private int numOfWheels;
+    private int numOfWheels = C4;
 
     // getters
 
@@ -110,7 +110,7 @@ public class Vehicle {
     * The numberOfWheels() method states the amount of wheels.
     */
     public void numberOfWheels() {
-        System.out.println("\nYou vehicle have " + numberOfWheels + " wheels.");
+        System.out.println("\nYou vehicle have " + numOfWheels + " wheels.");
     }
 
     /**
